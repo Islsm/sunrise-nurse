@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* Header */
+.top-header {
+    background: #004a99;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #004a99;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1200x500');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.courses .course-card {
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    border-bottom: 4px solid #004a99;
+    display: inline-block;
+}
+
+.principal-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.principal-info img {
+    border-radius: 50%;
+    border: 3px solid #004a99;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.social-links {
+    margin: 15px 0;
+}
+
+.social-links a {
+    color: #00c3ff;
+    text-decoration: none;
+}
